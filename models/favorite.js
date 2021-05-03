@@ -6,7 +6,7 @@ const favoriteSchema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'       
     },
-    campsite: [{
+    campsites: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Campsite'
     }],
